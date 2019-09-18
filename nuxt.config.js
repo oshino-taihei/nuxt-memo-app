@@ -6,6 +6,9 @@ export default {
     port: 3333, // デフォルト: 3000
     host: '0.0.0.0', // デフォルト: localhost
   },
+  router: {
+    base: '/nuxt-memo-app/' // github.pagesデプロイに対応するため
+  },
   /*
   ** Headers of the page
   */
@@ -18,7 +21,7 @@ export default {
       { hid: 'description', name: 'description', content: process.env.npm_package_description || '' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/nuxt-memo-app/favicon.ico' }
     ]
   },
   /*
