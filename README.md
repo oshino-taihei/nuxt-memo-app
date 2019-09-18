@@ -24,4 +24,4 @@ $ yarn deploy
 
 ## Deployment
 
-https://github.com/oshino-taihei/nuxt-memo-app
+https://oshino-taihei.github.io/nuxt-memo-app/
