@@ -1,5 +1,5 @@
 <template>
-  <v-app dark>
+  <v-app>
     <v-navigation-drawer
       v-model="drawer"
       :mini-variant="miniVariant"
@@ -25,6 +25,7 @@
       </v-list>
     </v-navigation-drawer>
     <v-app-bar
+      color="grey lighten-1"
       :clipped-left="clipped"
       fixed
       app
@@ -102,15 +103,15 @@ export default {
           to: '/'
         },
         {
-          icon: 'mdi-chart-bubble',
-          title: 'Inspire',
-          to: '/inspire'
+          icon: 'mdi-format-list-bulleted-square',
+          title: 'Memo',
+          to: '/memo'
         }
       ],
       miniVariant: false,
       right: true,
       rightDrawer: false,
-      title: 'Vuetify.js'
+      title: 'Memo App'
     }
   }
 }

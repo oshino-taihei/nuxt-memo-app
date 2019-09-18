@@ -2,6 +2,10 @@ import colors from 'vuetify/es5/util/colors'
 
 export default {
   mode: 'universal',
+  server: {
+    port: 3333, // デフォルト: 3000
+    host: '0.0.0.0', // デフォルト: localhost
+  },
   /*
   ** Headers of the page
   */
@@ -49,7 +53,7 @@ export default {
   vuetify: {
     customVariables: ['~/assets/variables.scss'],
     theme: {
-      dark: true,
+      dark: false,
       themes: {
         dark: {
           primary: colors.blue.darken2,
